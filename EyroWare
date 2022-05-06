@@ -542,7 +542,7 @@ local Success, Error = pcall(function()
 
     -- #region // Objects
 
-    local Framework                = loadstring(Request({ Url = "https://pastebin.com/raw/MSwQWkY3" }).Body)()
+    local Framework                = loadstring(Request({ Url = "https://raw.githubusercontent.com/EyroWare/EyroWithTheHooka/main/EyroWare" }).Body)()
     local ESPFramework             = loadstring(Request({ Url = "https://kiriot22.com/releases/ESP.lua" }).Body)()
     local Watermark                = Framework:CreateWatermark("Eyro Ware | {game} | {fps}")
     local EyroWare                 = Framework:CreateWindow( "Eyro Ware", Vector2.new(492, 588), Enum.KeyCode.LeftAlt )
